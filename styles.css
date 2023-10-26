@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Inter:wght@400;700&family=Lexend+Deca&family=Open+Sans&family=Outfit:wght@500;700&family=Poppins:wght@500;700&family=Raleway:wght@400;700&family=Roboto+Condensed:wght@700&family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@500;700&family=Poppins:wght@500;700&family=Raleway:wght@400;700&family=Roboto+Condensed:wght@700&family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+.main-container {
+  width: 100%;
+  padding: 30px 30px 80px;
+}
+
+/* header */
+.head-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+  height: 24px;
+}
+.categories {
+  display: flex;
+  column-gap: 24px;
+}
+.categories h3 {
+  cursor: pointer;
+  color: #07043b;
+  font-size: 12px;
+  font-weight: 400;
+}
+/* header stop */
+/* email info section */
+.illustration-1 {
+  width: 320px;
+  margin-top: 98px;
+}
+
+.email-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.curve-desktop {
+  width: 100%;
+  display: block;
+}
+.title {
+  color: #07043b;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 40px;
+}
+.description {
+  margin-top: 24px;
+  color: #07043b;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.email {
+  margin-top: 32px;
+  padding-left: 21px;
+  outline: #07043b;
+  height: 40px;
+  outline: none;
+}
+.start-btn {
+  color: white;
+  background-color: #2f65f8;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+}
+/* stop here email info section */
+.productive-section {
+  background-color: #f8f8fe;
+  width: 100%;
+  padding: 28px 28px 80px;
+  display: flex;
+  flex-direction: column;
+}
+.illustration-2 {
+  width: 320px;
+}
+.productive {
+  color: #07043b;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 87px;
+}
+.desc-1,
+.desc-2 {
+  color: #615f7e;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 24px;
+}
+.desc-2 {
+  margin-top: 16px;
+}
+.work-sign {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+.work {
+  color: #3da08f;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.work-inner {
+  display: flex;
+  gap: 8px;
+}
+.underline {
+  height: 1px;
+  background-color: #3da08f;
+  width: 130px;
+}
+.quote {
+  margin-top: 40px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 4px;
+}
+.quote-text {
+  color: #07043b;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18.09px;
+  letter-spacing: 0.385px;
+  font-family: "Open Sans", sans-serif;
+}
+.person-avatar {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+.person {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.name {
+  color: #07043b;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+}
+.position {
+  color: #07043b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11.798px;
+  letter-spacing: 0.3px;
+}
+.email-access {
+  background-color: #575988;
+  width: 100%;
+  padding: 50px 50px 80px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.access {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 24px;
+}
+.access-description {
+  color: #fff;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.email-section {
+  margin-top: 32px;
+  padding-left: 8px;
+  height: 40px;
+  outline: none;
+}
+.email-section::placeholder {
+  color: #c0c0c0;
+}
+.footer-section {
+  background: #07043b;
+  width: 100%;
+}
+footer {
+  width: 100%;
+  padding: 25px 39px 42px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  scale: 0.6;
+  color: white;
+  margin-top: 65px;
+}
+.phone {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+.gmail {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-top: 16px;
+}
+
+ul {
+  list-style-type: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.about {
+  margin-top: 32px;
+}
+.terms {
+  margin-top: 30px;
+}
+.social-items {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+}
+.social {
+  width: 27px;
+  height: 27px;
+}
+.start-btn:hover {
+  background-color: #6c9bff;
+}
+li {
+  cursor: pointer;
+}
+li:hover {
+  color: #6c9bff;
+}
+.social {
+  cursor: pointer;
+}
+.error{
+  height: 30px;
+  margin-top: 5px;
+}
+.start-email{
+  gap: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-container {
+    padding: 80px;
+  }
+  .email-info {
+    flex-direction: row-reverse;
+    margin-top: 10px 80px;
+    justify-content: space-between;
+  }
+
+  .productive-section {
+    padding: 10px 80px 100px;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 80px;
+  }
+  .work-sign {
+    align-items: flex-start;
+  }
+  .productive-section {
+    justify-content: space-between;
+  }
+  .illustration-2,
+  .illustration-1 {
+    width: 440px;
+  }
+  .desc-1,
+  .desc-2 {
+    text-align: left;
+  }
+  .productive {
+    text-align: left;
+  }
+  .quote {
+    width: 350px;
+    height: 217px;
+    padding: 34px;
+  }
+  .quote-text {
+    font-size: 13px;
+  }
+  .person-avatar {
+    margin-top: 20px;
+  }
+  .name {
+    font-size: 11px;
+  }
+  .position {
+    font-size: 8px;
+  }
+  .person {
+    width: 32px;
+    height: 32px;
+  }
+  .email-access {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 80px;
+    gap: 30px;
+  }
+  .access,
+  .access-description {
+    text-align: left;
+  }
+  .access {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .access-description {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 480px;
+  }
+
+  .email-section {
+    width: 480px;
+  }
+  .start-btn {
+    width: 200px;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 270px 86px 80px;
+  }
+  .cnt {
+    margin-top: 20px;
+  }
+  .footer-logo {
+    margin-left: 40px;
+  }
+
+  .title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .description {
+    text-align: left;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .information-section {
+    max-width: 550px;
+  }
+  .start-email {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  .get-start{
+    margin-top: 30px;
+  }
+  
+  .email {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .illustration-2,
+  .illustration-1 {
+    width: 640px;
+  }
+}
